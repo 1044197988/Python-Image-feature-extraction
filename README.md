@@ -1,5 +1,5 @@
 # Python-Image-feature-extraction
-Python实现提取图像的纹理、图像特征，包含快速灰度共现矩阵（GLCM）、LBP特征、颜色矩、颜色直方图。
+Python实现提取图像的纹理、颜色特征，包含快速灰度共现矩阵（GLCM）、LBP特征、颜色矩、颜色直方图。
 
 # 原始图片
 ![图片](https://github.com/1044197988/Python-Image-feature-extraction/tree/master/Image/origin.png)
