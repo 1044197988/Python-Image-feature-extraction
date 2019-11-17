@@ -26,9 +26,9 @@ get_resolve_map.py和get_uniform_map.py主要是做降维后新的像素值的�
 ### 颜色矩
 颜色是彩色图像最重要的内容之一，被广泛用于图像检索中。但从图像中提取颜色特征时，很多算法都先要对图像进行量化处理。量化处理容易导致误检，并且产生的图像特征维数较高，不利于检索。AMA Stricker和M Orengo提出了颜色矩的方法，颜色矩是一种简单有效的颜色特征表示方法，有一阶矩(均值,mean)、二阶矩(方差, variance)和三阶矩(斜度,skewness)等，由于颜色信息主要分布于低阶矩中，所以用一阶矩，二阶矩和三阶矩足以表达图像的颜色分布，颜色矩已证明可有效地表示图像中的颜色分布，该方法的优点在于：不需要颜色空间量化，特征向量维数低；但实验发现该方法的检索效率比较低，因而在实际应用中往往用来过滤图像以缩小检索范围。<br>
 ### 颜色直方图
-![RGB-histogram](https://github.com/1044197988/Python-Image-feature-extraction/tree/master/Image/RGB-histogram.png)
-![gray-histogram](https://github.com/1044197988/Python-Image-feature-extraction/tree/master/Image/gray-histogram.png)
-![histogram](https://github.com/1044197988/Python-Image-feature-extraction/tree/master/Image/histogram.png)
+![RGB-histogram](https://github.com/1044197988/Python-Image-feature-extraction/blob/master/Image/RGB-histogram.png)
+![gray-histogram](https://github.com/1044197988/Python-Image-feature-extraction/blob/master/Image/gray-histogram.png)
+![histogram](https://github.com/1044197988/Python-Image-feature-extraction/blob/master/Image/histogram.png)
 # 参考
 * [michael92ht/LBP](https://github.com/michael92ht/LBP)
 * [tzm030329/GLCM](https://github.com/tzm030329/GLCM)
